@@ -39,5 +39,33 @@ Given two arrays containing information LIKE array[{key: x, value: 12321}, {key:
 returns an object representing xDis, yDis from previous point to the current point
  */
 function comparePoints(previousPoint, currentPoint) {
+    var data =
+        {
+            yAxis : null,
+            xAxis : null,
+            xDistance : Math.abs(previousPoint[0].value - currentPoint[0].value),
+            yDistance : Math.abs(previousPoint[1].value - currentPoint[1].value)
+        };
 
+    if (previousPoint[0].value < currentPoint[0].value) {
+        data.xAxis = "East";
+    }
+    else if(previousPoint[0].value > currentPoint[0].value) {
+        data.xAxis = "West";
+    }
+    else {
+        data.xAxis = "Same";
+    }
+
+    if (previousPoint[1].value < currentPoint[1].value) {
+        data.yAxis = "North";
+    }
+    else if(previousPoint[1].value > currentPoint[1].value) {
+        data.yAxis = "South";
+    }
+    else {
+        data.yAxis = "Same";
+    }
+
+    return data;
 }
