@@ -50,7 +50,7 @@
         }
     </script>
     <body onload="generateTarget()">
-        <label id = "states">TEST</label>
+        <label id = "count">TEST</label>
         <div id="targetContainer" class="target_container">
         </div>
     </body>
