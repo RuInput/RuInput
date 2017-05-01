@@ -1,7 +1,4 @@
 <?php
-    echo "lol";
-    echo $_POST["input"];
-    var_dump($_POST);
 ?>
 <html lang="en">
     <head>
