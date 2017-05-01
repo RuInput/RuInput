@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <title> RuInput </title>
+    <LINK href="./css/RuInput.css" rel="stylesheet" type="text/css">
+</head>
+
+<script>
+
+    var html = document.documentElement;
+    var height = html.offsetHeight;
+    var get.id = "target"; // set target id to target
+        target.onclick = function() {removeTarget(this.id);} // call removeTarget when button is clicked
+        target.style.top=getRandom(0, height-300) + "px"; // generate y position based on screensize and offset of heigh
+        targwidth = html.offsetWidth;
+        var count = 0;
+
+        function generateTarget() {
+            var target = document.createElement("BUTTON"); // new target that is generated
+            target.className = "target"; // set target classname to target
+            taret.style.left=getRandom(0, width-300) + "px"; // generate x position based on screensize and offset of width
+        document.getElementById("targetContainer").appendChild(target); // fetch the div element and append the target to it
+        count++; // increment score count
+        var label = document.getElementById("countLabel"); //
+        label.innerHTML = "Score : " + count;
+    }
+
+    function removeTarget(id) {
+        var elem = document.getElementById(id);
+        elem.parentNode.removeChild(elem);
+        generateTarget();
+    }
+
+    function getRandom(bottom,top) {
+        return Math.floor((Math.random()*top+1)+bottom);
+    }
+
+</script>
+
+<body onload="generateTarget();">
+<p id="countLabel"> </p>
+<div id="targetContainer" class="target_container">
+
+</div>
+</body>
+</HTML>
