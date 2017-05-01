@@ -6,6 +6,9 @@ function TargetQueue(screenX, screenY, targetNum) {
     this.targetNum = targetNum;
     this.targets = [];
 
+    /*
+    Populate targets array with targets of random values that vary depending on the screensave.
+     */
     this.generateTargets = function() {
         var sizeValue = this.screenX + this.screenY;
         for (var i = 0 ; i < this.targetNum ; i++) {
