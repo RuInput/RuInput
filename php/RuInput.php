@@ -53,6 +53,7 @@
         }
     </script>
     <body onload="generateTarget()">
+        <label id = "states">TEST</label>
         <div id="targetContainer" class="target_container">
         </div>
     </body>

@@ -18,7 +18,8 @@ function TargetQueue(screenX, screenY, targetNum) {
                         size : tempSize,
                         xPos : getRandom(0, Math.floor(screenX - tempSize)),
                         yPos : getRandom(0, Math.floor(screenY - tempSize)),
-                        positionalData : null
+                        positionalData : null,
+                        timeToClick : null
                     }
                 );
 
