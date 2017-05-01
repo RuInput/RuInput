@@ -17,7 +17,6 @@
 		var initialTime = date.getTime();
 		
 		
-
         function generateTarget() {
             var target = document.createElement("BUTTON");
 			var date = new Date();

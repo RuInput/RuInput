@@ -97,19 +97,4 @@ function comparePoints(previousPoint, currentPoint) {
     return data;
 }
 
-// TAKEN FROM THIS URL
-//http://stackoverflow.com/questions/323517/is-there-an-equivalent-for-var-dump-php-in-javascript
-function dump(obj) {
-    var out = '';
-    for (var i in obj) {
-        out += i + ": " + obj[i] + "\n";
-    }
 
-    alert(out);
-
-    // or, if you wanted to avoid alerts...
-
-    var pre = document.createElement('pre');
-    pre.innerHTML = out;
-    document.body.appendChild(pre)
-}
