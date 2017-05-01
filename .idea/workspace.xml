@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="598616ce-ade1-4417-8b3a-b712989dd9f4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/TargetQueue.js" afterPath="$PROJECT_DIR$/js/TargetQueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/RuInput.php" afterPath="$PROJECT_DIR$/php/RuInput.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="RuInput.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/RuInput.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+            <state relative-caret-position="594">
+              <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
               <folding>
                 <marker date="1493677314641" expanded="true" signature="88:1834" ph="..." />
                 <marker date="1493677314641" expanded="true" signature="99:312" ph="..." />
@@ -410,11 +408,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493672345845</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added label">
+      <created>1493677328433</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1493677328433</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14296000" />
+    <option name="totallyTimeSpent" value="14319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,7 +499,8 @@
     <MESSAGE value="testing of functions" />
     <MESSAGE value="Added things that do things" />
     <MESSAGE value="Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+    <MESSAGE value="Added label" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added label" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1257,8 +1263,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/RuInput.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        <state relative-caret-position="594">
+          <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
           <folding>
             <marker date="1493677314641" expanded="true" signature="88:1834" ph="..." />
             <marker date="1493677314641" expanded="true" signature="99:312" ph="..." />
