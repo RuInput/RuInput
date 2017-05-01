@@ -15,9 +15,32 @@ function TargetQueue(screenX, screenY, targetNum) {
                         size : tempSize,
                         xPos : getRandom(0, Math.floor(screenX - tempSize)),
                         yPos : getRandom(0, Math.floor(screenY - tempSize)),
-                        centerX : Math.floor(screenX / 2)
+                        positionalData : null
                     }
                 );
+
+                    this.targets[this.targets.length - 1].positionalData = comparePoints(
+                        [
+                            {
+                                key: "x",
+                                value: Math.floor(i === 0 ? Math.floor(this.screenX / 2) : this.targets[i - 1].xPos)
+                            },
+                            {
+                                key: "y",
+                                value: Math.floor(i === 0 ? Math.floor(this.screenY / 2) : this.targets[i - 1].yPos)
+                            }
+                        ],
+                        [
+                            {
+                                key: "x",
+                                value: Math.floor(Math.floor(this.targets[i].xPos))
+                            },
+                            {
+                                key: "y",
+                                value: Math.floor(this.targets[i].yPos)
+                            }
+                        ]
+                    )
         }
     };
 
@@ -58,14 +81,31 @@ function comparePoints(previousPoint, currentPoint) {
     }
 
     if (previousPoint[1].value < currentPoint[1].value) {
-        data.yAxis = "North";
+        data.yAxis = "South";
     }
     else if(previousPoint[1].value > currentPoint[1].value) {
-        data.yAxis = "South";
+        data.yAxis = "North";
     }
     else {
         data.yAxis = "Same";
     }
 
     return data;
+}
+
+// TAKEN FROM THIS URL
+//http://stackoverflow.com/questions/323517/is-there-an-equivalent-for-var-dump-php-in-javascript
+function dump(obj) {
+    var out = '';
+    for (var i in obj) {
+        out += i + ": " + obj[i] + "\n";
+    }
+
+    alert(out);
+
+    // or, if you wanted to avoid alerts...
+
+    var pre = document.createElement('pre');
+    pre.innerHTML = out;
+    document.body.appendChild(pre)
 }

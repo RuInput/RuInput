@@ -8,8 +8,9 @@
     </head>
     <script>
         html = document.documentElement;
-        var o = new TargetQueue(html.offsetWidth,  html.offsetHeight , 5);
+        var o = new TargetQueue(html.offsetWidth,  html.offsetHeight , 1);
         o.generateTargets();
+        //alert(JSON.stringify(o, null, 2));
 
         function generateTarget() {
             var target = document.createElement("BUTTON");
@@ -23,10 +24,6 @@
             target.style.width = Math.floor(values.size) + "px";
             target.style.top = Math.floor(values.yPos) + "px" ;
             target.style.left = Math.floor(values.xPos ) + "px";
-            var ordered = [{key: "x", value: 123}, {key: "y", value: 1209837}];
-            var ordered2 = [{key: "x", value: 12983}, {key: "y", value: 1234}];
-            alert(comparePoints(ordered, ordered2).yDistance);
-
 
             document.getElementById("targetContainer").appendChild(target);
         }
