@@ -36,7 +36,7 @@ function produceHighScoreTable( $PostData ) {
 /*
  * Produces the score table for the player.
  */
-function produceScoreTable($PostData[){
+function produceScoreTable($PostData){
 	$link = estConnection();
     $stmt = mysqli_prepare( $link, "SELECT Score, Device, Misses
     	     FROM Game
@@ -52,7 +52,7 @@ function produceScoreTable($PostData[){
 	$allRows = mysqli_query($link, $stmt);
     echo "<table>\n";
     echo "<tr>\n";
-    while (mysqli_fetch($stmt)) {
+    while ($onerow = mysqli_fetch_assoc($allRows)) {
         echo "<th>Score</th>\n";
         echo "<th>Device</th>\n";
         echo "<th>Misses</th>";
