@@ -58,9 +58,9 @@ function produceScoreTable($PostData){
 	echo "</tr>";
     while ($onerow = mysqli_fetch_assoc($allRows)) {
         echo "</tr>\n";
-        echo "<td>", strToHtml($oneRow['Score']), "</td>\n";
-        echo "<td>", strToHtml($oneRow['Device']), "</td>\n";
-        echo "<td>", strToHtml($oneRow['Misses']), "</td>\n";
+        echo "<td>", ($oneRow['Score']), "</td>\n";
+        echo "<td>", ($oneRow['Device']), "</td>\n";
+        echo "<td>", ($oneRow['Misses']), "</td>\n";
         echo "</tr>\n";
     }
 	
