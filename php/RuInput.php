@@ -1,7 +1,5 @@
 <?php
-    echo "lol";
-    echo $_POST["input"];
-    var_dump($_POST);
+echo "<label id='input'>$_POST['input'];</label>";
 ?>
 <html lang="en" onclick="miss(1)">
     <head>
