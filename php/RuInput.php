@@ -1,5 +1,6 @@
 <?php
-echo "<label id='input'> ".  $_POST["input"]  .  "</label>";
+    echo "<label id='input'> ".  $_POST["input"]  .  "</label>";
+    echo "<label id='age'>" . $_POST["age"] . "</label>";
 ?>
 <html lang="en" onclick="miss(1)">
     <head>
@@ -45,6 +46,10 @@ echo "<label id='input'> ".  $_POST["input"]  .  "</label>";
             }
             else {
                 //document.getElementById("target_info").innerHTML = JSON.stringify(targets,null,2);
+                targets.age = document.getElementById("age");
+                targets.input = document.getElementById("input");
+                targets.score = document.getElementById("score");
+                targets.misses = document.getElementById("misses");
                 post("./test_handler.php", targets, "POST");
             }
             target.className = "target";
