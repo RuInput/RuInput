@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87b91f29-932d-4bd0-805a-dd54fcb82b2f" name="Default" comment="trying to make sense of the .idea thing">
+    <list default="true" id="87b91f29-932d-4bd0-805a-dd54fcb82b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainPage.html" afterPath="$PROJECT_DIR$/mainPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/RuInput.php" afterPath="$PROJECT_DIR$/php/RuInput.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="RuInput.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/RuInput.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1551">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="891">
+              <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -197,7 +195,7 @@
       <updated>1493681989095</updated>
       <workItem from="1493681991980" duration="113000" />
       <workItem from="1493682125165" duration="196000" />
-      <workItem from="1493690335718" duration="150000" />
+      <workItem from="1493690335718" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="trying to make sense of the .idea thing">
       <created>1493682090207</created>
@@ -234,11 +232,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493682664310</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor names">
+      <created>1493690530847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1493690530847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2034000" />
+    <option name="totallyTimeSpent" value="2091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3004" height="1946" extended-state="0" />
@@ -271,7 +276,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="trying to make sense of the .idea thing" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to make sense of the .idea thing" />
+    <MESSAGE value="Refactor names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -684,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/RuInput.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1551">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="891">
+          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
           <folding />
         </state>
       </provider>
