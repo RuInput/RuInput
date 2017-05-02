@@ -64,6 +64,7 @@ function getRandom(bottom,top) {
     return Math.floor((Math.random()*top+1)+bottom);
 }
 
+
 /*
 getDirection : orderedPair[array of x and y values], orderedPair[array of x and y values] --> Direction[STRING]
 Given two arrays containing information LIKE array[{key: x, value: 12321}, {key: y, value: 123213} ]
@@ -108,7 +109,6 @@ function calculateScore(target) {
 
 function post(path, params, method) {
     method = method || "post"; // Set method to post by default if not specified.
-
     // The rest of this code assumes you are not using a library.
     // It can be made less wordy if you use one.
     var form = document.createElement("form");
