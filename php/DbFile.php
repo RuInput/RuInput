@@ -36,14 +36,14 @@ function produceHighScoreTable( $PostData ) {
 /*
  * Produces the score table for the player.
  */
-function produceScoreTable(){
+function produceScoreTable($PostData[){
 	$link = estConnection();
     $stmt = mysqli_prepare( $link, "SELECT Score, Device, Misses
     	     FROM Game
     	     WHERE Device = ?" );
 	mysqli_bind_param($stmt, 's', $Device );
 	
-	$Device = $PostData['input'];
+	$Device = $PostData['device'];
 	
 	mysqli_execute( $stmt );
 	
