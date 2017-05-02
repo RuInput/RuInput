@@ -1,6 +1,9 @@
 <?php
+    echo "lol";
+    echo $_POST["input"];
+    var_dump($_POST);
 ?>
-<html lang="en">
+<html lang="en" onclick="miss(1)">
     <head>
         <meta charset="UTF-8">
         <title>RuInput Challenge</title>
@@ -15,8 +18,9 @@
 		
 		var date = new Date();
 		var initialTime = date.getTime();
+		var misses = 0;
 		
-		
+
         function generateTarget() {
             var target = document.createElement("BUTTON");
 			var date = new Date();
@@ -25,22 +29,21 @@
             target.className = "target";
             target.id = "target";
             target.onclick = function () {
+				miss(-1);
                 removeTarget(this.id);
 				var clickedDate = new Date();
 				var clickedtime = clickedDate.getTime();
 				timeToClick = clickedtime - newTargetTime;
 				alert(timeToClick);
+				alert(misses);
             };
-			
 			
             target.style.height = Math.floor(values.size) + "px";
             target.style.width = Math.floor(values.size) + "px";
-            target.style.top = Math.floor(values.yPos) + "px" ;
+            target.style.top = Math.floor(values.yPos) + "px";
             target.style.left = Math.floor(values.xPos ) + "px";
 
             document.getElementById("targetContainer").appendChild(target);
-            var score = document.getElementById("score");
-            score.innerHTML = calculateScore(values);
         }
 
         function removeTarget(id) {
@@ -48,9 +51,12 @@
             elem.parentNode.removeChild(elem);
             generateTarget();
         }
+		
+		function miss(n) {
+			misses = misses + n;
+		}
     </script>
     <body onload="generateTarget()">
-        <label id = "score">TEST</label>
         <div id="targetContainer" class="target_container">
         </div>
     </body>
