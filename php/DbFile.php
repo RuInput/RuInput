@@ -95,16 +95,13 @@ function addGameData( $gameData ){
 	$conn = estConnection();
 
 	//insert statement for the Game table
-	$insertGame = mysqli_prepare( $conn, "INSERT INTO `Game`(`Game_ID`, `Player_ID`, `Device`, `Age`, `Experience`, `Score` )
-								  VALUES (?,?,?,?,?,?)" );
+	$insertGame = mysqli_prepare( $conn, "INSERT INTO `Game`(`Device`, `Age`, `Score` )
+								  VALUES (?,?,?)" );
 		  
-	mysqli_stmt_bind_param( $insertStatement, 'ddsddd', $Game_ID, $Player_ID, $Device, $Age, $Experience, $Score );
+	mysqli_stmt_bind_param( $insertStatement, 'ssd', $Device, $Age, $Score );
 	  
-	$Game_ID = $gameData['game_id'];
-	$Player_ID = $gameData['player_id'];
 	$Device = $gameData['device'];
 	$Age = $gameData['age'];
-	$Experience = $gameData['experience'];
 	$Score = $gameData['score'];
 
 	mysqli_close( $conn ); //closing the connection 
