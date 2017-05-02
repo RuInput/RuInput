@@ -48,7 +48,7 @@
                 //document.getElementById("target_info").innerHTML = JSON.stringify(targets,null,2);
                 targets.age = document.getElementById("age").innerHTML;
                 targets.device = document.getElementById("input").innerHTML;
-                targets.score = document.getElementById("score").innerHTML;
+                targets.score = score;
                 targets.misses = document.getElementById("misses").innerHTML;
                 post("./test_handler.php", targets, "POST");
             }
