@@ -11,23 +11,25 @@
         <link rel="stylesheet" type="text/css" href="../css/RuInput.css">
     </head>
     <body onload="generateTarget()">
-        <label>
-            GOOD JOB DOG;
-        </label>
+        <label id="score"/>
+        <label id="misses"/>
         <div id="targetContainer" class="target_container">
         </div>
     </body>
     <script>
         html = document.documentElement;
         var targets = new TargetQueue(html.offsetWidth,  html.offsetHeight , 30);
-        targets.generateTargets();
+        targets.generateTargets(); // populate targets object
         alert(JSON.stringify(targets, null, 2));
 		
 		var date = new Date();
 		var initialTime = date.getTime();
 		var misses = 0;
 		var score = 0;
-		
+
+		document.getElementById("score").innerHTML = "Score : 0";
+        document.getElementById("misses").innerHTML = "Misses : 0";
+
 
         function generateTarget() {
             var target = document.createElement("BUTTON");
