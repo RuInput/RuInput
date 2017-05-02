@@ -10,6 +10,13 @@
         <script src = "../js/TargetQueue.js"></script>
         <link rel="stylesheet" type="text/css" href="../css/RuInput.css">
     </head>
+    <body onload="generateTarget()">
+        <label>
+            GOOD JOB DOG;
+        </label>
+        <div id="targetContainer" class="target_container">
+        </div>
+    </body>
     <script>
         html = document.documentElement;
         var targets = new TargetQueue(html.offsetWidth,  html.offsetHeight , 30);
@@ -19,6 +26,7 @@
 		var date = new Date();
 		var initialTime = date.getTime();
 		var misses = 0;
+		var score = 0;
 		
 
         function generateTarget() {
@@ -43,6 +51,7 @@
             target.style.top = Math.floor(values.yPos) + "px";
             target.style.left = Math.floor(values.xPos ) + "px";
 
+
             document.getElementById("targetContainer").appendChild(target);
         }
 
@@ -59,8 +68,4 @@
 			}
 		}
     </script>
-    <body onload="generateTarget()">
-        <div id="targetContainer" class="target_container">
-        </div>
-    </body>
 </html>
