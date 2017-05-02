@@ -6,4 +6,7 @@
  * Time: 3:22 PM
  */
 var_dump($_POST);
+require_once("DbFile.php");
+
+addGameData($_POST);
 ?>
