@@ -4,6 +4,7 @@ function TargetQueue(screenX, screenY, targetNum) {
     this.screenX = screenX;
     this.screenY = screenY;
     this.targetNum = targetNum;
+    this.currentTarget = 0;
     this.targets = [];
 
     /*
@@ -11,7 +12,7 @@ function TargetQueue(screenX, screenY, targetNum) {
      */
     this.generateTargets = function() {
         var sizeValue = this.screenX + this.screenY;
-        for (var i = 0 ; i < this.targetNum ; i++) {
+        for (var i = 0 ; i < this.targetNum; i++) {
             var tempSize = sizeValue / getRandom(7, 30);
                 this.targets.push(
                     {
@@ -49,7 +50,10 @@ function TargetQueue(screenX, screenY, targetNum) {
     };
 
     this.dequeueTarget = function() {
-        return this.targets.shift();
+        //return this.targets.shift();
+        var _tempTarget = this.targets[this.currentTarget];
+        this.currentTarget++;
+        return _tempTarget;
     };
 
     this.compareTargets = function() {

@@ -14,11 +14,14 @@
         <label id="score"> </label>
         <br />
         <label id="misses"> </label>
+        <br />
+        <label id ="target_info"> </label>
         <div id="targetContainer" class="target_container"> </div>
     </body>
     <script>
         html = document.documentElement;
-        var targets = new TargetQueue(html.offsetWidth,  html.offsetHeight , 30);
+        var targetNum = 20;
+        var targets = new TargetQueue(html.offsetWidth,  html.offsetHeight , targetNum);
         targets.generateTargets(); // populate targets object
 
 		var date = new Date();
@@ -39,11 +42,17 @@
             var target = document.createElement("BUTTON");
 			var date = new Date();
 			var newTargetTime = date.getTime();
-            var values = targets.dequeueTarget();
+			if (targets.currentTarget !== targetNum) {
+                var values = targets.dequeueTarget();
+            }
+            else {
+                document.getElementById("target_info").innerHTML = JSON.stringify(targets,null,2);
+            }
             target.className = "target";
             target.id = "target";
             target.onclick = function () {
 				miss(-1); // decrement miss counter
+                values['timeToClick'] = _timeToClick;
                 removeTarget(this.id); // remove the existing button on screen
 
 				var _clickedDate = new Date();
