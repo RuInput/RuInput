@@ -47,7 +47,7 @@
             }
             else {
                 //document.getElementById("target_info").innerHTML = JSON.stringify(targets,null,2);
-                post("./test_handler.php", targets, "POST");
+                post("./test_handler.php", {key: pls, value: "plspls"}, "POST");
             }
             target.className = "target";
             target.id = "target";
