@@ -104,6 +104,7 @@ function addGameData( $gameData ){
 	$Age = $gameData['age'];
 	$Score = $gameData['score'];
 
+	mysqli_stmt_execute($insertGame);	
 	mysqli_close( $conn ); //closing the connection 
 }
 
