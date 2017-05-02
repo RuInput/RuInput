@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87b91f29-932d-4bd0-805a-dd54fcb82b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainPage.html" afterPath="$PROJECT_DIR$/mainPage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/RuInput.php" afterPath="$PROJECT_DIR$/php/RuInput.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,11 +33,11 @@
       <file leaf-file-name="RuInput.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/RuInput.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+            <state relative-caret-position="966">
+              <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
               <folding>
-                <marker date="1493756380813" expanded="true" signature="176:199" ph="..." />
-                <marker date="1493756380813" expanded="true" signature="674:1019" ph="..." />
+                <marker date="1493756507758" expanded="true" signature="176:199" ph="..." />
+                <marker date="1493756507758" expanded="true" signature="674:1019" ph="..." />
               </folding>
             </state>
           </provider>
@@ -243,7 +242,7 @@
       <workItem from="1493741262550" duration="145000" />
       <workItem from="1493741409858" duration="4122000" />
       <workItem from="1493751376099" duration="139000" />
-      <workItem from="1493751528143" duration="4680000" />
+      <workItem from="1493751528143" duration="4766000" />
     </task>
     <task id="LOCAL-00001" summary="trying to make sense of the .idea thing">
       <created>1493682090207</created>
@@ -441,11 +440,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493756001144</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added post">
+      <created>1493756394454</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1493756394454</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11950000" />
+    <option name="totallyTimeSpent" value="12036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,11 +770,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/RuInput.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+        <state relative-caret-position="966">
+          <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
           <folding>
-            <marker date="1493756380813" expanded="true" signature="176:199" ph="..." />
-            <marker date="1493756380813" expanded="true" signature="674:1019" ph="..." />
+            <marker date="1493756507758" expanded="true" signature="176:199" ph="..." />
+            <marker date="1493756507758" expanded="true" signature="674:1019" ph="..." />
           </folding>
         </state>
       </provider>
