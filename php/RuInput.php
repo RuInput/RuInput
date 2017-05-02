@@ -54,6 +54,9 @@
 		
 		function miss(n) {
 			misses = misses + n;
+			if (misses < 0) {
+				misses = 0;
+			}
 		}
     </script>
     <body onload="generateTarget()">
