@@ -1,5 +1,6 @@
 <?php
-require( 'DbFile.php' );
+require('DbFile.php');
+addGameData($_POST);
 ?>
 
 <!DOCTYPE html>
