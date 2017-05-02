@@ -12,9 +12,9 @@
     </head>
     <script>
         html = document.documentElement;
-        var o = new TargetQueue(html.offsetWidth,  html.offsetHeight , 30);
-        o.generateTargets();
-        alert(JSON.stringify(o, null, 2));
+        var targets = new TargetQueue(html.offsetWidth,  html.offsetHeight , 30);
+        targets.generateTargets();
+        alert(JSON.stringify(targets, null, 2));
 		
 		var date = new Date();
 		var initialTime = date.getTime();
@@ -25,7 +25,7 @@
             var target = document.createElement("BUTTON");
 			var date = new Date();
 			var newTargetTime = date.getTime();
-            var values = o.dequeueTarget();
+            var values = targets.dequeueTarget();
             target.className = "target";
             target.id = "target";
             target.onclick = function () {
