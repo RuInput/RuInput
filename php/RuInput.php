@@ -60,7 +60,7 @@
 				var _timeToClick = _clickedTime - newTargetTime; // set the time since last clicked
 
 				score -= 200; // decrement score by 200 for every button click to
-				score += (_timeToClick * 2); // Depending on the time it took the button the score is incremented accordingly
+				score += _timeToClick; // Depending on the time it took the button the score is incremented accordingly
 				values['timeToClick'] = _timeToClick;
                 document.getElementById("score").innerHTML = "Score : " + score;
                 document.getElementById("misses").innerHTML = "Misses : " + misses;
