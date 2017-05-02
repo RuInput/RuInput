@@ -1,5 +1,5 @@
 <?php
-echo "<label id='input'>$_POST['input'];</label>";
+echo "<label id='input'>ldkjawldjk</label>";
 ?>
 <html lang="en" onclick="miss(1)">
     <head>

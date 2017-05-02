@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/php/RuInput.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -239,7 +239,7 @@
       <workItem from="1493741262550" duration="145000" />
       <workItem from="1493741409858" duration="4122000" />
       <workItem from="1493751376099" duration="139000" />
-      <workItem from="1493751528143" duration="4078000" />
+      <workItem from="1493751528143" duration="4149000" />
     </task>
     <task id="LOCAL-00001" summary="trying to make sense of the .idea thing">
       <created>1493682090207</created>
@@ -416,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493755118096</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added post">
+      <created>1493755786115</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1493755786115</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11348000" />
+    <option name="totallyTimeSpent" value="11419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,7 +747,7 @@
     <entry file="file://$PROJECT_DIR$/php/RuInput.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding />
         </state>
       </provider>
