@@ -34,8 +34,18 @@
         <entry file="file://$PROJECT_DIR$/php/RuInput.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-              <folding />
+              <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+              <folding>
+                <marker date="1493755989691" expanded="true" signature="114:137" ph="..." />
+                <marker date="1493755989691" expanded="true" signature="114:327" ph="..." />
+                <marker date="1493755989691" expanded="true" signature="374:599" ph="..." />
+                <marker date="1493755989691" expanded="true" signature="612:957" ph="..." />
+                <marker date="1493755989691" expanded="true" signature="987:1175" ph="{...}" />
+                <marker date="1493755989691" expanded="true" signature="1341:1957" ph="{...}" />
+                <marker date="1493755989691" expanded="true" signature="1511:1580" ph="{...}" />
+                <marker date="1493755989691" expanded="true" signature="1598:1775" ph="{...}" />
+                <marker date="1493755989691" expanded="true" signature="1892:1957" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -239,7 +249,7 @@
       <workItem from="1493741262550" duration="145000" />
       <workItem from="1493741409858" duration="4122000" />
       <workItem from="1493751376099" duration="139000" />
-      <workItem from="1493751528143" duration="4149000" />
+      <workItem from="1493751528143" duration="4291000" />
     </task>
     <task id="LOCAL-00001" summary="trying to make sense of the .idea thing">
       <created>1493682090207</created>
@@ -423,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493755786115</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added post">
+      <created>1493755857349</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1493755857349</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11419000" />
+    <option name="totallyTimeSpent" value="11561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,8 +764,18 @@
     <entry file="file://$PROJECT_DIR$/php/RuInput.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding />
+          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding>
+            <marker date="1493755989691" expanded="true" signature="114:137" ph="..." />
+            <marker date="1493755989691" expanded="true" signature="114:327" ph="..." />
+            <marker date="1493755989691" expanded="true" signature="374:599" ph="..." />
+            <marker date="1493755989691" expanded="true" signature="612:957" ph="..." />
+            <marker date="1493755989691" expanded="true" signature="987:1175" ph="{...}" />
+            <marker date="1493755989691" expanded="true" signature="1341:1957" ph="{...}" />
+            <marker date="1493755989691" expanded="true" signature="1511:1580" ph="{...}" />
+            <marker date="1493755989691" expanded="true" signature="1598:1775" ph="{...}" />
+            <marker date="1493755989691" expanded="true" signature="1892:1957" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
