@@ -39,7 +39,8 @@
             target.style.left = Math.floor(values.xPos ) + "px";
 
             document.getElementById("targetContainer").appendChild(target);
-			
+            var score = document.getElementById("score");
+            score.innerHTML = calculateScore(values);
         }
 
         function removeTarget(id) {
@@ -49,7 +50,7 @@
         }
     </script>
     <body onload="generateTarget()">
-        <label id = "count">TEST</label>
+        <label id = "score">TEST</label>
         <div id="targetContainer" class="target_container">
         </div>
     </body>

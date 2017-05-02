@@ -97,4 +97,7 @@ function comparePoints(previousPoint, currentPoint) {
     return data;
 }
 
-
+function calculateScore(target) {
+    var score = target.timeToClick;
+    return score;
+}
