@@ -19,7 +19,6 @@ require( 'DbFile.php' );
 	color: white; 
 	text-align: center;
 }
-
 .divStyle{
     width: 500px;
     margin: auto;
@@ -44,7 +43,8 @@ th{
 	<h1 class="textAlign">End Game</h1>
 <div class="divStyle">Your Score
 
-<?php produceScoreTable( $_POST );?> 
+<p class="textAlign"> <?php echo "Score: ", $_POST['score'];?> </p> 
+
 
 </div>
 
