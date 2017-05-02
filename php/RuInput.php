@@ -20,7 +20,7 @@
         html = document.documentElement;
         var targets = new TargetQueue(html.offsetWidth,  html.offsetHeight , 30);
         targets.generateTargets(); // populate targets object
-        alert(JSON.stringify(targets, null, 2));
+        //alert(JSON.stringify(targets, null, 2));
 		
 		var date = new Date();
 		var initialTime = date.getTime();
