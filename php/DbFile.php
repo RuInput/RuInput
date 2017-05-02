@@ -98,7 +98,7 @@ function addGameData( $gameData ){
 	$insertGame = mysqli_prepare( $conn, "INSERT INTO `Game`(`Device`, `Age`, `Score` )
 								  VALUES (?,?,?)" );
 		  
-	mysqli_stmt_bind_param( $insertStatement, 'ssd', $Device, $Age, $Score );
+	mysqli_stmt_bind_param( $insertGame, 'ssd', $Device, $Age, $Score );
 	  
 	$Device = $gameData['device'];
 	$Age = $gameData['age'];
