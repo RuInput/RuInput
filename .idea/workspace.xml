@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87b91f29-932d-4bd0-805a-dd54fcb82b2f" name="Default" comment="Begain addTargets implimentation">
+    <list default="true" id="87b91f29-932d-4bd0-805a-dd54fcb82b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/TargetQueue.js" afterPath="$PROJECT_DIR$/js/TargetQueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/FinalScreen.php" afterPath="$PROJECT_DIR$/php/FinalScreen.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/RuInput.php" afterPath="$PROJECT_DIR$/php/RuInput.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +61,8 @@
       <file leaf-file-name="FinalScreen.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -93,8 +91,8 @@
         <option value="$PROJECT_DIR$/FinalScreen.php" />
         <option value="$PROJECT_DIR$/mainPage.html" />
         <option value="$PROJECT_DIR$/php/DbFile.php" />
-        <option value="$PROJECT_DIR$/js/TargetQueue.js" />
         <option value="$PROJECT_DIR$/php/RuInput.php" />
+        <option value="$PROJECT_DIR$/js/TargetQueue.js" />
         <option value="$PROJECT_DIR$/php/FinalScreen.php" />
       </list>
     </option>
@@ -258,13 +256,6 @@
       <workItem from="1493774510611" duration="159000" />
       <workItem from="1493846660719" duration="139000" />
       <workItem from="1493846812396" duration="627000" />
-    </task>
-    <task id="LOCAL-00015" summary="added post">
-      <created>1493753112627</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1493753112627</updated>
     </task>
     <task id="LOCAL-00016" summary="added post">
       <created>1493753294961</created>
@@ -602,11 +593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493853645139</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Begain addTargets implimentation">
+      <created>1493854469015</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1493854469015</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23809000" />
+    <option name="totallyTimeSpent" value="23864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,7 +869,7 @@
     <entry file="file://$PROJECT_DIR$/js/TargetQueue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1349">
-          <caret line="135" column="49" lean-forward="false" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
+          <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -902,8 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>

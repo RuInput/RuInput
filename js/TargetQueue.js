@@ -133,7 +133,7 @@ function post(path, data, options) {
         var hiddenField = document.createElement("input");
         hiddenField.setAttribute("type", "hidden");
         hiddenField.setAttribute("name", "info");
-        hiddenField.setAttribute("value", string);
+        hiddenField.setAttribute("value", data);
 
         form.appendChild(hiddenField);
 
