@@ -121,48 +121,23 @@ function calculateScore(target) {
  * @example postToUrl('/UpdateUser', {Order {Id: 1, FirstName: 'Sally'}});
  */
 function post(path, data, options) {
-    if (options === undefined) {
-        options = {};
+    function post(path, string, method) {
+        method = method || "post"; // Set method to post by default if not specified.
+
+        // The rest of this code assumes you are not using a library.
+        // It can be made less wordy if you use one.
+        var form = document.createElement("form");
+        form.setAttribute("method", method);
+        form.setAttribute("action", path);
+
+        var hiddenField = document.createElement("input");
+        hiddenField.setAttribute("type", "hidden");
+        hiddenField.setAttribute("name", "info");
+        hiddenField.setAttribute("value", string);
+
+        form.appendChild(hiddenField);
+
+        document.body.appendChild(form);
+        form.submit();
     }
-
-    var method = options.method || "post"; // Set method to post by default if not specified.
-
-    var form = document.createElement("form");
-    form.setAttribute("method", method);
-    form.setAttribute("action", path);
-
-    function constructElements(item, parentString) {
-        for (var key in item) {
-            if (item.hasOwnProperty(key) && item[key] != null) {
-                if (Object.prototype.toString.call(item[key]) === '[object Array]') {
-                    for (var i = 0; i < item[key].length; i++) {
-                        constructElements(item[key][i], parentString + key + "[" + i + "].");
-                    }
-                } else if (Object.prototype.toString.call(item[key]) === '[object Object]') {
-                    constructElements(item[key], parentString + key + ".");
-                } else {
-                    var hiddenField = document.createElement("input");
-                    hiddenField.setAttribute("type", "hidden");
-                    hiddenField.setAttribute("name", parentString + key);
-                    hiddenField.setAttribute("value", item[key]);
-                    form.appendChild(hiddenField);
-                }
-            }
-        }
-    }
-
-    //if the parent 'data' object is an array we need to treat it a little differently
-    if (Object.prototype.toString.call(data) === '[object Array]') {
-        if (options.arrayName === undefined) console.warn("Posting array-type to url will doubtfully work without an arrayName defined in options.");
-        //loop through each array item at the parent level
-        for (var i = 0; i < data.length; i++) {
-            constructElements(data[i], (options.arrayName || "") + "[" + i + "].");
-        }
-    } else {
-        //otherwise treat it normally
-        constructElements(data, "");
-    }
-
-    document.body.appendChild(form);
-    form.submit();
 }
