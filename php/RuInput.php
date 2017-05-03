@@ -52,7 +52,7 @@
                 targets.misses = document.getElementById("misses").innerHTML;
                 //targets.misses = document.getElementById("misses").innerHTML =
 
-                post("./FinalScreen.php", JSON.stringify(targets), "POST");
+                post("./FinalScreen.php", "adlkjdwal", "POST");
             }
             target.className = "target";
             target.id = "target";
