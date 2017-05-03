@@ -1,7 +1,9 @@
 <?php
 require('DbFile.php');
 addGameData($_POST);
-var_dump($_POST);
+foreach($_POST['targets'] as $target) {
+    echo $target['size'];
+}
 ?>
 
 <!DOCTYPE html>
