@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87b91f29-932d-4bd0-805a-dd54fcb82b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/FinalScreen.php" afterPath="$PROJECT_DIR$/php/FinalScreen.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/RuInput.php" afterPath="$PROJECT_DIR$/php/RuInput.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,14 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="RuInput.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RuInput.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/RuInput.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+            <state relative-caret-position="588">
+              <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
               <folding>
-                <marker date="1493852622395" expanded="true" signature="176:199" ph="..." />
-                <marker date="1493852622395" expanded="true" signature="674:1019" ph="..." />
+                <marker date="1493852887036" expanded="true" signature="176:199" ph="..." />
+                <marker date="1493852887036" expanded="true" signature="674:1019" ph="..." />
               </folding>
             </state>
           </provider>
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FinalScreen.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FinalScreen.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1525">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="42">
+              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -91,9 +92,9 @@
         <option value="$PROJECT_DIR$/FinalScreen.php" />
         <option value="$PROJECT_DIR$/mainPage.html" />
         <option value="$PROJECT_DIR$/php/DbFile.php" />
-        <option value="$PROJECT_DIR$/php/FinalScreen.php" />
         <option value="$PROJECT_DIR$/js/TargetQueue.js" />
         <option value="$PROJECT_DIR$/php/RuInput.php" />
+        <option value="$PROJECT_DIR$/php/FinalScreen.php" />
       </list>
     </option>
   </component>
@@ -256,13 +257,6 @@
       <workItem from="1493774510611" duration="159000" />
       <workItem from="1493846660719" duration="139000" />
       <workItem from="1493846812396" duration="627000" />
-    </task>
-    <task id="LOCAL-00006" summary="Refactor names">
-      <created>1493690530847</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1493690530847</updated>
     </task>
     <task id="LOCAL-00007" summary="Refactor names">
       <created>1493690548318</created>
@@ -600,11 +594,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493852456118</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Begain addTargets implimentation">
+      <created>1493852629235</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1493852629235</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22083000" />
+    <option name="totallyTimeSpent" value="22385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,14 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1525">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -936,12 +929,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/RuInput.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+        <state relative-caret-position="588">
+          <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
           <folding>
-            <marker date="1493852622395" expanded="true" signature="176:199" ph="..." />
-            <marker date="1493852622395" expanded="true" signature="674:1019" ph="..." />
+            <marker date="1493852887036" expanded="true" signature="176:199" ph="..." />
+            <marker date="1493852887036" expanded="true" signature="674:1019" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
