@@ -110,6 +110,13 @@ function addGameData( $gameData ){
 	mysqli_close( $conn ); //closing the connection 
 }
 
+//Call when game ends
+//addTargets : List[targets] --> bool[success]
+function addTargets($targetList) {
+    foreach($targetList as $target) {
+    }
+}
+
 function estConnection(){
 	//connection parameters
 	$dbhost = "localhost";
