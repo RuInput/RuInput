@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87b91f29-932d-4bd0-805a-dd54fcb82b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/FinalScreen.php" afterPath="$PROJECT_DIR$/php/FinalScreen.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/RuInput.php" afterPath="$PROJECT_DIR$/php/RuInput.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,6 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="RuInput.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/RuInput.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="52" column="109" lean-forward="false" selection-start-line="52" selection-start-column="109" selection-end-line="52" selection-end-column="109" />
+              <folding>
+                <marker date="1493851382784" expanded="true" signature="176:199" ph="..." />
+                <marker date="1493851382784" expanded="true" signature="674:1019" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DbFile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/DbFile.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FinalScreen.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FinalScreen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="-1525">
               <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
@@ -76,11 +89,11 @@
         <option value="$PROJECT_DIR$/php/RuInput.html" />
         <option value="$PROJECT_DIR$/php/test_handler.php" />
         <option value="$PROJECT_DIR$/FinalScreen.php" />
-        <option value="$PROJECT_DIR$/js/TargetQueue.js" />
         <option value="$PROJECT_DIR$/mainPage.html" />
-        <option value="$PROJECT_DIR$/php/RuInput.php" />
         <option value="$PROJECT_DIR$/php/DbFile.php" />
         <option value="$PROJECT_DIR$/php/FinalScreen.php" />
+        <option value="$PROJECT_DIR$/js/TargetQueue.js" />
+        <option value="$PROJECT_DIR$/php/RuInput.php" />
       </list>
     </option>
   </component>
@@ -566,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493850897979</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Begain addTargets implimentation">
+      <created>1493851066969</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1493851066969</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20780000" />
+    <option name="totallyTimeSpent" value="21024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,20 +854,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/TargetQueue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4280">
-          <caret line="113" column="60" lean-forward="false" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
+        <state relative-caret-position="1040">
+          <caret line="63" column="51" lean-forward="false" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/RuInput.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <marker date="1493848043638" expanded="true" signature="176:199" ph="..." />
-            <marker date="1493848043638" expanded="true" signature="674:1019" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,9 +875,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="-1525">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/RuInput.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="52" column="109" lean-forward="false" selection-start-line="52" selection-start-column="109" selection-end-line="52" selection-end-column="109" />
+          <folding>
+            <marker date="1493851382784" expanded="true" signature="176:199" ph="..." />
+            <marker date="1493851382784" expanded="true" signature="674:1019" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
