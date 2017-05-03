@@ -50,7 +50,8 @@
                 targets.device = document.getElementById("input").innerHTML;
                 targets.score = score;
                 targets.misses = document.getElementById("misses").innerHTML;
-                document.getElementById("misses").innerHTML = JSON.stringify(targets, null, 2);
+                //targets.misses = document.getElementById("misses").innerHTML =
+                alert(JSON.stringify(targets));
                 //.post("./FinalScreen.php", targets, "POST");
             }
             target.className = "target";
