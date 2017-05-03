@@ -114,6 +114,7 @@ function addGameData( $gameData ){
 //addTargets : List[targets] --> bool[success]
 function addTargets($targetList) {
     foreach($targetList as $target) {
+        addTargetData($target);
     }
 }
 

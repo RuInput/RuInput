@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87b91f29-932d-4bd0-805a-dd54fcb82b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/DbFile.php" afterPath="$PROJECT_DIR$/php/DbFile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/FinalScreen.php" afterPath="$PROJECT_DIR$/php/FinalScreen.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,29 +31,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="RuInput.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/RuInput.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2688">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <marker date="1493848043638" expanded="true" signature="176:199" ph="..." />
-                <marker date="1493848043638" expanded="true" signature="674:1019" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DbFile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/DbFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="911">
-              <caret line="113" column="45" lean-forward="false" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
+            <state relative-caret-position="84">
+              <caret line="75" column="37" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
               <folding>
-                <marker date="1493849780847" expanded="true" signature="196:290" ph="SELECT Score... Game" />
-                <marker date="1493849780847" expanded="true" signature="1136:1211" ph="SELECT Score... Game" />
-                <marker date="1493849780847" expanded="true" signature="2115:2228" ph="INSERT INTO `Target`... " />
-                <marker date="1493849780847" expanded="true" signature="2767:2837" ph="INSERT INTO `Game`... " />
+                <marker date="1493850798475" expanded="true" signature="196:290" ph="SELECT Score... Game" />
+                <marker date="1493850798475" expanded="true" signature="1136:1211" ph="SELECT Score... Game" />
+                <marker date="1493850798475" expanded="true" signature="2115:2228" ph="INSERT INTO `Target`... " />
+                <marker date="1493850798475" expanded="true" signature="2767:2837" ph="INSERT INTO `Game`... " />
               </folding>
             </state>
           </provider>
@@ -61,8 +49,8 @@
       <file leaf-file-name="FinalScreen.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -137,7 +125,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RuInput" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -147,25 +135,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RuInput" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuInput" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RuInput" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -579,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493850152286</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Begain addTargets implimentation">
+      <created>1493850379716</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1493850379716</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20091000" />
+    <option name="totallyTimeSpent" value="20611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,7 +579,7 @@
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -838,23 +819,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/DbFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="113" column="45" lean-forward="false" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
-          <folding>
-            <marker date="1493849780847" expanded="true" signature="196:290" ph="SELECT Score... Game" />
-            <marker date="1493849780847" expanded="true" signature="1136:1211" ph="SELECT Score... Game" />
-            <marker date="1493849780847" expanded="true" signature="2115:2228" ph="INSERT INTO `Target`... " />
-            <marker date="1493849780847" expanded="true" signature="2767:2837" ph="INSERT INTO `Game`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FinalScreen.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/TargetQueue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4280">
+          <caret line="113" column="60" lean-forward="false" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -869,18 +845,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/TargetQueue.js">
+    <entry file="file://$PROJECT_DIR$/php/DbFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4280">
-          <caret line="113" column="60" lean-forward="false" selection-start-line="113" selection-start-column="60" selection-end-line="113" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="84">
+          <caret line="75" column="37" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+          <folding>
+            <marker date="1493850798475" expanded="true" signature="196:290" ph="SELECT Score... Game" />
+            <marker date="1493850798475" expanded="true" signature="1136:1211" ph="SELECT Score... Game" />
+            <marker date="1493850798475" expanded="true" signature="2115:2228" ph="INSERT INTO `Target`... " />
+            <marker date="1493850798475" expanded="true" signature="2767:2837" ph="INSERT INTO `Game`... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/FinalScreen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
