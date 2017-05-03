@@ -54,7 +54,7 @@
                 alert(JSON.stringify(targets,null,2));
                 alert(JSON.stringify(targets.targets,null,2));
 
-                post("./FinalScreen.php", JSON.stringify(targets), "POST");
+                post("./FinalScreen.php", JSON.stringify({ok: targets}), "POST");
             }
             target.className = "target";
             target.id = "target";
