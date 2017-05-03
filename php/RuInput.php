@@ -38,7 +38,7 @@
 
 
         function generateTarget() {
-            var target = document.createElement("BUTTON");
+            var target = document.createElement("label");
 			var date = new Date();
 			var newTargetTime = date.getTime();
 			if (targets.currentTarget !== targetNum) {
