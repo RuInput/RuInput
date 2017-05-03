@@ -51,8 +51,8 @@
                 targets.score = score;
                 targets.misses = document.getElementById("misses").innerHTML;
                 //targets.misses = document.getElementById("misses").innerHTML =
-
-                post("./FinalScreen.php", "adlkjdwal", "POST");
+                var _temp =JSON.stringify(targets, null, 2);
+                post("./FinalScreen.php", _temp, "POST");
             }
             target.className = "target";
             target.id = "target";
