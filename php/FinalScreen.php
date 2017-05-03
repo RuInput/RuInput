@@ -45,7 +45,7 @@ th{
 	<h1 class="textAlign">End Game</h1>
 <div class="divStyle">Your Score
 
-<?php produceScoreTable( $_POST );?> 
+<?php var_dump($_POST)?>
 
 </div>
 
