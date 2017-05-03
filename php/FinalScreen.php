@@ -1,11 +1,6 @@
-<<<<<<< HEAD:FinalScreen.html
-z<?php
-require( 'DbFile.php' );
-=======
 <?php
 require('DbFile.php');
 addGameData($_POST);
->>>>>>> 714efe832689e85f949a7486419e6f5bac212d3b:php/FinalScreen.php
 ?>
 
 <!DOCTYPE html>

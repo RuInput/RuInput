@@ -108,6 +108,7 @@ function calculateScore(target) {
 }
 
 /**
+ * CODE FROM THIS URL : http://stackoverflow.com/questions/133925/javascript-post-request-like-a-form-submit
  * Posts javascript data to a url using form.submit().
  * Note: Handles json and arrays.
  * @param {string} path - url where the data should be sent.
