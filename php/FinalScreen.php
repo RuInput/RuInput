@@ -1,8 +1,7 @@
 <?php
 require('DbFile.php');
 //addGameData($_POST);
-var_dump($_POST);
-echo $_POST;
+echo $_POST[0];
 //addTargets($_POST);
 ?>
 
