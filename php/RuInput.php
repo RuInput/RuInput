@@ -51,7 +51,7 @@
                 targets.score = score;
                 targets.misses = document.getElementById("misses").innerHTML;
                 //targets.misses = document.getElementById("misses").innerHTML =
-                post("./FinalScreen.php", targets, "POST");
+                post("./FinalScreen.php", targets.targets, "POST");
             }
             target.className = "target";
             target.id = "target";
